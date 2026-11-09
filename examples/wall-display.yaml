@@ -1,0 +1,7 @@
+# Wanddisplay: große Wochenansicht, nur Woche + Tag, keine Bedienelemente nötig
+type: custom:smo-schedule-card
+entity: sensor.schule_max_mustermann_stundenplan_heute
+default_view: week
+views: [week, day]
+show_status: true
+show_summary: true

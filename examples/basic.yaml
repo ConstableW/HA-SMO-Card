@@ -1,0 +1,3 @@
+# Minimal: Schüler über eine beliebige Schulmanager-Entität des Kindes wählen
+type: custom:smo-schedule-card
+entity: sensor.schule_max_mustermann_stundenplan_heute

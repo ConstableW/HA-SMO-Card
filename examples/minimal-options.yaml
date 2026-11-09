@@ -1,0 +1,18 @@
+# Alle Optionen mit ihren Standardwerten
+type: custom:smo-schedule-card
+entity: sensor.schule_max_mustermann_stundenplan_heute   # oder: student_id: "1234567"
+title: Stundenplan Max          # optional, Standard: "Stundenplan · <Name>"
+default_view: week              # compact | day | week
+views: [compact, day, week]
+language: auto                  # auto | de | en
+show_teacher: true
+show_room: true
+show_times: true
+show_cancelled: true            # entfallene Stunden sichtbar lassen
+show_legend: true
+show_summary: true
+show_status: true               # Datenstand und Fehlerhinweise
+show_date: true
+expandable: true                # Antippen klappt Details auf
+weekend_shows_next_week: true
+show_weekend_lessons: true      # Sa/So nur, wenn Stunden vorhanden sind

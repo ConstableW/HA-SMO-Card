@@ -1,0 +1,6 @@
+# Morgenübersicht für das Smartphone: Beginn, Ende, aktuelle Stunde, nur Änderungen
+type: custom:smo-schedule-card
+entity: sensor.schule_max_mustermann_stundenplan_heute
+default_view: compact
+views: [compact, day]
+show_legend: false

@@ -1,0 +1,13 @@
+# Zwei Kinder nebeneinander (Sections-Dashboard)
+type: sections
+sections:
+  - type: grid
+    cards:
+      - type: custom:smo-schedule-card
+        entity: sensor.schule_max_mustermann_stundenplan_heute
+        default_view: compact
+  - type: grid
+    cards:
+      - type: custom:smo-schedule-card
+        entity: sensor.schule_erika_mustermann_stundenplan_heute
+        default_view: compact

@@ -1,0 +1,21 @@
+{
+  "name": "smo-schedule-card",
+  "version": "0.1.0",
+  "description": "Home Assistant Lovelace card for the Schulmanager Online (SMO) timetable",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
